@@ -7,8 +7,8 @@ O **PixelLife** é uma plataforma digital projetada para **artistas** e **usuár
 Projeto desenvolvido em 2023, 2º Ano do curso de **Desenvolvimento de Sistemas**.
 
 ## 🖼️ Imagens do Projeto
+
 ![](https://github.com/joaobaradelli/PixelLife/blob/main/documentos/demo1.gif)
-![image](https://github.com/user-attachments/assets/380ec2fc-14cd-4a5a-8cf7-191db3a2b46e)
 
 ![](https://github.com/joaobaradelli/PixelLife/blob/main/documentos/demo2.png)
 
