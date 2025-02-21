@@ -57,4 +57,4 @@ Este é um projeto escolar, feito sem cunho de utlização no mundo real ou que 
 
 ## Desenvolvedor
 
-- **Samuel Santos liveira **
+- **Samuel Santos Oliveira**
