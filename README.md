@@ -12,6 +12,9 @@ Projeto desenvolvido em 2023, 2º Ano do curso de **Desenvolvimento de Sistemas*
 
 ![](https://github.com/joaobaradelli/PixelLife/blob/main/documentos/demo2.png)
 
+![](https://github.com/user-attachments/assets/a89a3975-900f-4469-9f99-6a906614bec0)
+
+
 ## 🛠 Tecnologias Utilizadas
 
 - **HTML**
