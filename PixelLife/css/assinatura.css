@@ -1,0 +1,92 @@
+body {
+    margin-top: 0;
+    font-family: "Comme", sans-serif;
+    background-image: url(../documentos/wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.all{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 640px;
+    width: 470px;
+    padding-left: 25px;
+    padding-right: 15px;
+    background-color: white;
+    animation: fadeIn;
+    animation-duration: 1s;
+    border-radius: 5px;
+}
+
+.tituloAssinatura{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.text{
+    margin-top: 7px;
+}
+
+#selecao{
+    transition: 0.5s;
+    margin: -20px -3px 0px 0px;
+    width: 420px;
+    height: 33px;
+    border: 1px solid #929292;
+    padding: 0px 7px;
+    border-radius: 7px;
+}
+
+.cxdt {
+    transition: 0.5s;
+    margin: 5px -3px 10px 0px;
+    width: 420px;
+    height: 33px;
+    border: 1px solid #929292;
+    padding: 0px 10px;
+    border-radius: 7px;
+}
+
+.cxdt:hover{
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+.cxdt:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+img{
+    margin-right: 30px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.btAssinatura{
+    width: 420px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #8a01da, #a23fff);
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+}
+.close{
+    position: absolute;
+    margin: 5Px 10px 10px 75px;
+    width: 5%;
+    transition: 0.5s;
+}
+.close:hover{
+    color: rgb(103, 48, 255);
+}

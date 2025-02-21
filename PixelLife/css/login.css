@@ -1,0 +1,171 @@
+body{
+    margin-top: 0;
+    font-family: "Comme", sans-serif;
+    background-image: url(../documentos/wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.all{
+    height: 640px;
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+#txtimg{
+    font-family: "Poppins";
+    font-size: 32px;
+    position: absolute;
+    width: 230px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    margin: 25px 0px 0px 25px;
+}
+
+#txtimg2{
+    position: absolute;
+    margin-top: 615px;
+    color: white;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.tituloLogin{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 22px;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: -3px;
+}
+
+.cxdt {
+    transition: 0.5s;
+    margin: 5px -3px 10px 0px;
+    padding: 0px 8px;
+    width:310px;
+    height: 33px;
+    border: 1px solid #929292;
+    border-radius: 7px;
+}
+
+.cxdt:hover{
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+.cxdt:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.msgSenha{
+    font-size: 13px;
+}
+
+#concordar{
+    margin-top: -25px;
+    font-size: 13px;
+}
+
+input[type=checkbox] {
+    position: relative;
+      cursor: pointer;
+}
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background-color:#b3b3b3;
+    border-radius: 2px;
+}
+input[type=checkbox]:checked:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background-color:#8a01da;
+    border-radius: 2px;
+}
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 3px;
+    left: 7px;
+}
+
+.btLogin{
+    width: 307px;
+    height: 40px;
+    margin-bottom: 13px;
+    background-image: linear-gradient(to right, #8a01da, #a23fff);
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+}
+
+#membro{
+    font-size: 15px;
+}
+
+.motivacional{
+    font-size: 13px;
+}
+
+.disclaimer{
+    font-size: 13px;
+    color: rgb(83, 0, 160);
+    text-align: justify;
+    width: 300px;
+    margin-top: 100px;
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(47, 0, 92);
+}
+.close{
+    position: absolute;
+    margin: 0px 0px 10px 30px;
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+}
+.close:hover{
+    color: rgb(103, 48, 255);
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+
+}

@@ -1,0 +1,224 @@
+body {
+    margin-top: 0;
+    padding-right: 1%;
+    font-family: "Comme", sans-serif;
+    background-image: url(../documentos/wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    
+}
+.nav {
+	width: 100%;
+	height: 65px;
+	position: static;
+	line-height: 65px;
+	text-align: center;
+	background-color: transparent;
+	font-weight: 400;
+	display: flex;
+}
+
+.navLogin {
+	background-color: #7a00b3;
+	color: white;
+	font-size: 15px;
+	padding: 7px 10px;
+	text-decoration: none;
+	border-bottom: dotted 0px;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+.navLogin:hover {
+	background-color: #000000;
+	font-weight: 900;
+}
+
+.nav div.logo {
+	width: 180px;
+	height: 10px;
+	position: absolute;
+}
+
+.nav div.logo a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+
+.nav div.logo a:hover {
+	color: #c0c0c0;
+}
+
+.nav div.main_list {
+	width: 600px;
+	height: 65px;
+	float: right;
+	position: relative;
+}
+
+.nav div.main_list ul {
+	width: 100%;
+	height: 65px;
+	display: flex;
+	list-style: none;
+}
+
+.nav div.main_list ul li {
+	width: 120px;
+	height: 65px;
+}
+
+.nav div.main_list ul li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 65px;
+	text-transform: uppercase;
+
+}
+
+.nav div.main_list ul li a:hover {
+	color: #c0c0c0;
+}
+
+.nav div.media_button {
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	position: absolute;
+	right: 15px;
+	top: 12px;
+	display: none;
+}
+
+a {
+	-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	border-bottom: dotted 1px;
+	color: #34a58e;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	border-bottom-color: transparent;
+	color: #8f00d1 !important;
+}
+
+.space{
+    width: 12.9%;
+}
+
+.row{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin-top: 25px;
+}
+
+.all{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 1px 20px;
+    padding-top: 50px;
+    background-color: white;
+    animation: fadeIn;
+    animation-duration: 1s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+
+}
+.allDestak{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn;
+    animation-duration: 1s;
+    border-radius: 5px;
+}
+.pop{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(92, 0, 134);
+}
+.tituloPlano{
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.preco{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 2%;
+    font-weight: 700;
+    padding-bottom: -200px;
+}
+.mes{
+    text-align: center;
+    padding-top: -200px;
+    
+}
+.btAssinar{
+    width: 80%;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(92, 0, 134);
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: 2.6px solid rgb(92, 0, 134);
+    background-color: white;
+    transition: 0.6s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+.btAssinar:hover{
+    background-color:rgb(92, 0, 134); 
+    color: white;
+
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    margin: -3% 0%;
+}
+.text1{
+    text-align: center;
+    font-size: 20px;
+    margin: -1.8% 0%;
+}
+.certo{
+    color: green;
+    padding-right: 2%;
+    font-size: 25px;
+}
+.errado{
+    padding-right: 2%;
+    font-size: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+
+}
